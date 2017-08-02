@@ -1,0 +1,17 @@
+{
+  "name": "Gfycat Annoyance Redirect",
+  "version": "0.1",
+  "description": "Redirects gfycats from the annoying URL to the 'normal' url. [gfycat.com/gifs/detail/{gif_id}] -> [gfycat.com/{gif_id}]",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://gfycat.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "minimum_chrome_version": "32",
+  "manifest_version": 2
+}
