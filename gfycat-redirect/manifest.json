@@ -1,7 +1,8 @@
 {
   "name": "Gfycat Annoyance Redirect",
+  "short_name": "Gfycat Redirect",
   "version": "0.1",
-  "description": "Redirects gfycats from the annoying URL to the 'normal' url. [gfycat.com/gifs/detail/{gif_id}] -> [gfycat.com/{gif_id}]",
+  "description": "Redirects gfycats from the annoying URL to the 'normal' url.",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
